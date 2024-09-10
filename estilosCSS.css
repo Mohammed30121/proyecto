@@ -1,0 +1,138 @@
+
+.popup {
+    height: 70%;
+    width: 80%;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 25px;
+    }
+
+
+.botonAgregar {
+        font-size: 16px; /* Tamaño de la tipografía */
+        text-transform: uppercase; /* Texto en mayúsculas */
+        font-weight: bold; /* Fuente en negrita */
+        color: #ffffff; /* Color del texto */
+        background-color: #555; /* Color de fondo */
+        padding: 10px 20px; /* Espaciado interno */
+        border-radius: 100px; /* Bordes redondeados */
+        position: fixed; /* Posición fija */
+        bottom: 20px; /* Distancia desde la parte inferior */
+        right: 20px; /* Distancia desde la parte derecha */
+        z-index: 0; /* Asegura que el botón esté por encima de otros elementos */
+        cursor: pointer;
+}
+
+.btnPedidos{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 0;
+}
+
+.btnEdit{
+        background-color: #555;
+        color: white;
+        position: relative;
+        cursor: pointer;
+}
+
+.divImgMani{
+        border: solid;
+        border-width: 5px;
+        border-color: black;
+        width: 200px;
+        height: 250px;
+}
+
+.btnDelete{
+    background-color: #555;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}    
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+}
+
+.formMenuBar {
+    position: relative;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputMenuBar[type="search"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.buttonMenuBar {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#menu-container {
+    margin-top: 20px;
+    text-size-adjust: ;
+}
+
+.fondoAgregar{
+    position: absolute;
+    border: solid;
+    top: 11.5%;
+    right: -5%;
+    width: 110%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 85%;
+}
+
+.tablas{
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: solid;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+}
+
+.SecMostrar{
+    top: 10%;
+    right: 50%;
+}
